@@ -4520,3 +4520,5 @@ Processing by StatsController#index as HTML
   [1m[35mPost Load (0.3ms)[0m  SELECT  "posts".* FROM "posts"  ORDER BY "posts"."id" DESC LIMIT 1
   Rendered stats/index.html.erb within layouts/application (0.7ms)
 Completed 200 OK in 79ms (Views: 16.9ms | ActiveRecord: 0.8ms)
+  [1m[36mPost Load (2.6ms)[0m  [1mSELECT "posts".* FROM "posts"[0m
+  [1m[35mAuthor Load (0.3ms)[0m  SELECT "authors".* FROM "authors"
